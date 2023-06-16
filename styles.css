@@ -1,0 +1,189 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f7f9; /* Color de fondo en tono pastel */
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #218c74; /* Color de enlace en tono verde */
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #218c74; /* Color del logo en tono verde */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .hero-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #218c74; /* Color de botón en tono verde */
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #1bf7de; /* Color de botón en tono azul */
+  }
+  
+  .destino {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .destino img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .experiencia {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .experiencia img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f0f7f9; /* Color de fondo del formulario en tono pastel */
+    border: 1px solid #218c74; /* Color del borde del formulario en tono verde */
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #218c74; /* Color de botón en tono verde */
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1bf7de; /* Color de botón en tono azul */
+  }
+  
+  footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  /* Estilos adicionales específicos del Portal de Viajes */
+  #hero {
+    background-color: #1bf7de; /* Color de fondo en tono azul */
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  #destinos {
+    background-color: #fff;
+  }
+  
+  #experiencias {
+    background-color: #f0f7f9; /* Color de fondo en tono pastel */
+  }
+  
+  #contacto {
+    background-color: #f0f7f9; /* Color de fondo en tono pastel */
+  }
+  
+  .destino-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .destino-info p {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .experiencia-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .experiencia-info p {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .btn {
+      font-size: 14px;
+    }
+  
+    form {
+      max-width: 100%;
+    }
+  }
+  
